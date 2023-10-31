@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ermk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0082-tenant/ci1t-43256-0082-app/devfile-sample-ermk@sha256:d7db975b005c2ca8928947713fcac5d1cda5743dc0980daff902e27c4cc3be69
         name: my-nodejs
         ports:
         - containerPort: 3001
